@@ -43,4 +43,16 @@ public class PembeliHandphone extends Handphone {
     public void setJumlahHandphoneyangdibeli(String jumlahHandphoneyangdibeli) {
         this.jumlahHandphoneyangdibeli = jumlahHandphoneyangdibeli;
     }
+
+    //Overriding
+
+    @Override
+    public void TampilkanAtribut() {
+        super.TampilkanAtribut();
+    }
+
+    @Override
+    public boolean create() {
+        return super.create();
+    }
 }
