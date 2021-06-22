@@ -30,5 +30,26 @@ public class aksiHandphone {
         pembeli.TampilkanAtribut();
         pembeli.create();
         pembeli.create("Iphone Akmal");
+
+        //Constructor dengan methode (object)
+        Handphone hp1 = new Handphone();
+        hp1.TampilkanAtribut();
+        Handphone hp2 =new Handphone();
+        hp2.TampilkanAtribut();
+
+        Handphone hp3 = new Handphone("mito","exp");
+        hp3.TampikanInfoHandphone();
+        Handphone hp4 = new Handphone("Asus","ROG");
+        hp4.TampilkanAtribut();
+
+        Handphone hp5 = new Handphone("Realme","F1");
+        hp5.TampikanInfoHandphone();
+        Handphone hp6 = new Handphone("Xiomi","note7");
+        hp6.TampilkanAtribut();
+
+        //Overriding
+        PembeliHandphone riding = new PembeliHandphone();
+        riding.create();
+        riding.create("Samsung");
     }
 }
