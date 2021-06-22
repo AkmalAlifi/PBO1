@@ -14,7 +14,7 @@ public class Handphone
     public String kontak;
     public String deskripsi;
 
-    public void TampilkanInfoLaptop(){
+    public void TampilkanAtribut(){
         System.out.println("====================================");
         System.out.println("Merek Handphone :"+merek);
         System.out.println("Tipe Handphone :"+tipe);
@@ -33,7 +33,7 @@ public class Handphone
         System.out.println("Layar Handphone :"+layar);
     }
     public boolean create(){
-        String insertCreate = "INSERT INTO HANDPHONE VALUES ('"+merek"','"+tipe"','"+tahun+"')";
+        String insertCreate = "INSERT INTO HANDPHONE VALUES ('"+merek+"','"+tipe+"','"+tahun+"')";
         System.out.println(insertCreate);
         boolean berhasil = true;
         if(berhasil){
