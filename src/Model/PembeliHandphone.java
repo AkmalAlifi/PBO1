@@ -17,4 +17,30 @@ public class PembeliHandphone extends Handphone {
         String jc = "INSERT INTO HANDPHONE VALUES ('"+jumlahHandphoneyangdibeli+"')";
         System.out.println(jc);
     }
+
+    //Getter And Setter
+
+    public String getNamapembeliHandphone() {
+        return namapembeliHandphone;
+    }
+
+    public void setNamapembeliHandphone(String namapembeliHandphone) {
+        this.namapembeliHandphone = namapembeliHandphone;
+    }
+
+    public String getNamapenjualHandphone() {
+        return namapenjualHandphone;
+    }
+
+    public void setNamapenjualHandphone(String namapenjualHandphone) {
+        this.namapenjualHandphone = namapenjualHandphone;
+    }
+
+    public String getJumlahHandphoneyangdibeli() {
+        return jumlahHandphoneyangdibeli;
+    }
+
+    public void setJumlahHandphoneyangdibeli(String jumlahHandphoneyangdibeli) {
+        this.jumlahHandphoneyangdibeli = jumlahHandphoneyangdibeli;
+    }
 }
