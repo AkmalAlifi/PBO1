@@ -47,4 +47,23 @@ public class Handphone
         System.out.println(insertCreate);
         return false;
     }
+
+    //constructor
+
+    public Handphone(){
+        System.out.println("=================================");
+        merek = "please Isi Nama Handphone";
+        tipe =  "Please Isi Jenis Handphone";
+        tahun = "Please Isi warna Handphone";
+        layar = "Please Isi Layar Handphone";
+    }
+    public Handphone(String merekHandphone, String tipeHandphone){
+        this.merek = merekHandphone;
+        this.tipe = tipeHandphone;
+    }
+    public Handphone(String tahunHandphone, String layarHandphone, String merekHandphone){
+        this.tahun = tahunHandphone;
+        this.layar = layarHandphone;
+        this.merek = merekHandphone;
+    }
 }
